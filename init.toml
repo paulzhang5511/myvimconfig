@@ -11,7 +11,7 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "PaperColor"
+    colorscheme = "hybrid"
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
@@ -59,9 +59,8 @@ auto_completion_tab_key_behavior = "smart"
   repo = "https://gitee.com/myvim/vim-json-line-format.git"
   merged = false
 
-[[custom_plugins]]
-  repo = "NLKNguyen/papercolor-theme"
-  merged = false
+[[layers]]
+  name = "colorscheme"
 
 [[custom_plugins]]
   repo = "junegunn/fzf"
@@ -77,4 +76,8 @@ auto_completion_tab_key_behavior = "smart"
 
 [[custom_plugins]]
   repo = "tpope/vim-commentary"
+  merged = false
+
+[[custom_plugins]]
+  repo = "udalov/kotlin-vim"
   merged = false

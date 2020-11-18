@@ -12,7 +12,7 @@ function! myspacevim#before() abort
 
     tnoremap <Esc> <C-\><C-n>
     imap jk <esc>
-    nnoremap ;w :<C-U>w<CR>
+    nnoremap <Leader>w :<C-U>w<CR>
     nnoremap -- :<C-U>FZF<CR>
     autocmd Filetype json nnoremap <slient><buffer> ;r :<C-U>JsonLineFormatWrite<CR>
 endfunction

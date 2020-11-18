@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='C:\code\mysystem'
+let g:netrw_dirhist_9='C:\software'
 let g:netrw_dirhist_8='C:\code\mysystem'
 let g:netrw_dirhist_7='C:/code/mysystem/src'
 let g:netrw_dirhist_6='C:\code\mysystem'
