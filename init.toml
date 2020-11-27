@@ -51,9 +51,9 @@ auto_completion_tab_key_behavior = "smart"
   [layers.override_cmd]
     rust = ["rust-analyzer"]
 
-[[custom_plugins]]
-  repo = "paulzhang5511/vim-im-select"
-  merged = false
+# [[custom_plugins]]
+#   repo = "paulzhang5511/vim-im-select"
+#   merged = false
 
 [[custom_plugins]]
   repo = "https://gitee.com/myvim/vim-json-line-format.git"
@@ -81,3 +81,19 @@ auto_completion_tab_key_behavior = "smart"
 [[custom_plugins]]
   repo = "udalov/kotlin-vim"
   merged = false
+
+# https://github.com/vim-scripts/replacewithregister
+[[custom_plugins]]
+  repo = "vim-scripts/replacewithregister"
+  merged = false
+
+# https://github.com/mg979/vim-visual-multi
+[[custom_plugins]]
+  repo = "mg979/vim-visual-multi"
+  merged = false
+
+# https://github.com/chrisbra/vim-xml-runtime
+[[custom_plugins]]
+  repo = "chrisbra/vim-xml-runtime"
+  merged = false
+
